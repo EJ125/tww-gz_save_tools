@@ -133,7 +133,7 @@ def create_any_percent_savefiles():
     las_cam_pos = Vector(0, 0, 0)
     las_cam_target = Vector(0, 0, 0)
     las_counter = 0
-    las_file = PracticeSaveInfo(las_requirements, p0, las_angle, las_position, lasp_cam_pos, las_cam_target, lasp_counter, "14.las", p1)
+    las_file = PracticeSaveInfo(las_requirements, p0, las_angle, las_position, las_cam_pos, las_cam_target, las_counter, "14.las", p1)
     any_percent_savefiles[13] = barrier_skip_file
 
     pgcs_requirements = 0
